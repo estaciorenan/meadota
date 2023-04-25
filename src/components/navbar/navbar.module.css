@@ -1,0 +1,33 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 130;
+    background-color: #F2D7D5;
+}
+
+.logo{
+    max-width: 200px;
+    margin: 10px 20px;
+}
+
+.navbar-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.navbar-menu :where(ul, li){
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    text-decoration: none;  
+    margin-right: 40px;
+
+    font-weight:700;
+    font-size:large;
+    color: var(--text-secondary);
+    text-shadow: 1px 1px #558ABB;
+}
